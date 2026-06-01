@@ -1,0 +1,50 @@
+.contact-card {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+  padding: 3rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.form-control-custom {
+  background-color: #f8f9fa;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  transition: all 0.3s ease;
+}
+
+.form-control-custom:focus {
+  background-color: #fff;
+  border-color: var(--vf-primary);
+  box-shadow: 0 0 0 0.25rem rgba(32, 201, 151, 0.15);
+}
+
+.contact-info-box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  height: 100%;
+}
+
+.contact-icon {
+  width: 48px;
+  height: 48px;
+  background-color: rgba(32, 201, 151, 0.1);
+  color: var(--vf-primary);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .contact-card {
+    padding: 2rem 1.5rem;
+  }
+}

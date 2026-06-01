@@ -1,0 +1,50 @@
+:root {
+  --vf-primary: #20c997;
+  --vf-primary-hover: #1ba87e;
+  --vf-dark: #343a40;
+  --vf-darker: #2b3035;
+  --vf-light: #f8f9fa;
+  --vf-text: #212529;
+  --vf-text-muted: #6c757d;
+  --vf-border: #dee2e6;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: var(--vf-text);
+  background-color: #ffffff;
+}
+
+/* Custom Overrides */
+.btn-primary {
+  background-color: var(--vf-primary);
+  border-color: var(--vf-primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--vf-primary-hover);
+  border-color: var(--vf-primary-hover);
+}
+
+.bg-dark-custom {
+  background-color: var(--vf-dark);
+}
+
+.bg-darker-custom {
+  background-color: var(--vf-darker);
+}
+
+.text-primary-custom {
+  color: var(--vf-primary) !important;
+}
+
+/* Helper for smooth transitions */
+.transition-all {
+  transition: all 0.3s ease;
+}
+
+/* Common Section Padding */
+.section-padding {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
